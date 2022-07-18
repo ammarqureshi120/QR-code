@@ -1,0 +1,41 @@
+
+body{
+    background-color:  hsl(212, 45%, 89%);
+   font-family:'Outfit', sans-serif;
+}
+
+.card-container{
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.qr-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 1.5;
+    width: 90%;
+    color: hsl(220, 15%, 55%);
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+h2{
+    width: 95%;
+    font-size: 1.3rem;
+    margin: 20px auto;
+    font-weight: 700
+}
+
+@media screen and (max-width:375px) {
+    .card-container{
+        width: 80%;
+    }
+}
